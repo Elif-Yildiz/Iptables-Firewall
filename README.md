@@ -1,8 +1,8 @@
 # Iptables-Firewall
 
-iptables.sh : full and completed version 
-firewall.sh : just contains firewall rules part, it can be changed, updated for further needs
-delete.sh : clearing all the changes made 
+# iptables.sh : full and completed version 
+# firewall.sh : just contains firewall rules part, it can be changed, updated for further needs
+# delete.sh : clearing all the changes made 
 
 Tasks
 
@@ -58,3 +58,10 @@ Notes
 │  Client1 │   │ Client2  │             │      │
 │          │   │          │             │      │
 └──────────┘   └──────────┘             └──────┘
+
+
+
+
+
+
+
