@@ -150,6 +150,7 @@ sudo ip netns exec firewall iptables -A OUTPUT -o veth-fw-hst -p tcp --dport 80 
 sudo ip netns exec server python3 -m http.server 80 #building server up
 
 # iptables -I INPUT -p tcp --dport 22 -j REJECT # this part is for a memory of ssh wars we had, note: close the ports you do not use
+# you can also add some logs here is the format for it: sudo ip netns exec firewall iptables -A INPUT -p icmp  -s $client1_s -j LOG --log-prefix "MY LOGS" #my optional logging preference
 
 
 
